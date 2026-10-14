@@ -1,36 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2905946\\RiderProjects\\ZapateriaLosPasos\\ZapateriaLosPasos\\ZapateriaLosPasos.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\Practica2048\\zapateria\\ZapateriaLosPasos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2905946\\RiderProjects\\ZapateriaLosPasos\\ZapateriaLosPasos\\ZapateriaLosPasos.csproj": {
+    "C:\\Users\\Usuario\\Documents\\Practica2048\\zapateria\\ZapateriaLosPasos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2905946\\RiderProjects\\ZapateriaLosPasos\\ZapateriaLosPasos\\ZapateriaLosPasos.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Practica2048\\zapateria\\ZapateriaLosPasos.csproj",
         "projectName": "ZapateriaLosPasos",
-        "projectPath": "C:\\Users\\2905946\\RiderProjects\\ZapateriaLosPasos\\ZapateriaLosPasos\\ZapateriaLosPasos.csproj",
-        "packagesPath": "C:\\Users\\2905946\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2905946\\RiderProjects\\ZapateriaLosPasos\\ZapateriaLosPasos\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\Practica2048\\zapateria\\ZapateriaLosPasos.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\Practica2048\\zapateria\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\2905946\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,11 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MySqlConnector": {
@@ -67,12 +60,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\2905946\\.dotnet\\sdk\\8.0.425/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Usuario\\.dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

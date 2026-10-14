@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZapateriaLosPasos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc260610999bd26a2888a02c156ad6f4abc1c9f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZapateriaLosPasos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZapateriaLosPasos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
