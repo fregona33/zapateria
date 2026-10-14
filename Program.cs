@@ -2,11 +2,11 @@
 using MySqlConnector;
 using ZapateriaLosPasos;
 
-const string servidor = "217.154.101.61";
-    const string usuario = "remote_user";
+const string servidor = "62.171.180.115";
+    const string usuario = "alumno_11";
     const string baseDatos = "alumno_11";
 
-    string? clave = Environment.GetEnvironmentVariable("@1234");
+    string? clave = Environment.GetEnvironmentVariable("MYSQL_PASSWORD");
 
     if (string.IsNullOrWhiteSpace(clave))
     {
@@ -31,6 +31,7 @@ while (true)
     Console.WriteLine("2. Comprobar tablas");
     Console.WriteLine("3. Reiniciar estructura y datos");
     Console.WriteLine("4. Importar marcas");
+    Console.WriteLine("5. Importar categorias");
     Console.WriteLine("0. Salir");
     Console.Write("Opción: ");
 
@@ -39,7 +40,7 @@ while (true)
     if (opcion == "0")
         break;
 
-    if (opcion != "1" && opcion != "2" && opcion != "3" && opcion != "4")
+    if (opcion != "1" && opcion != "2" && opcion != "3" && opcion != "4" && opcion != "5")
     {
         Console.WriteLine("Opción no válida");
         continue;
@@ -69,6 +70,10 @@ while (true)
 
             case "4":
                 Importador.ImportarMarcas(conexion);
+                break;
+            
+            case "5":
+                Importador.ImportarCategorias(conexion);
                 break;
         }
     }
